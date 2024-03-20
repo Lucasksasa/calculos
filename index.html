@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculos</title>
+</head>
+<body>
+    <h1>Cálculo IMC</h1>
+<form action="form_imc.php" method="GET">
+    <p>Peso: <input type="text" name="peso" placeholder="Digite seu peso em kg"></p>
+    <p>Altura: <input type="number" name='altura' min=0 max=10 step="any" placeholder="Digite sua altura"></p>
+
+    <input type="submit" value="Ok">
+    <input type="reset" value="Cancel">
+</form>
+<br>
+
+<h1>Cálculo de Média</h1>
+<form action="form_notas.php" method="GET">
+    <p>Nome: <input type="text" name="nome" placeholder="Digite seu nome"></p>
+    <p>Nota1: <input type="number" name="nota1" min=0 max=10 step="any" placeholder="Digite sua nota 1"></p>
+    <p>Nota2: <input type="number" name="nota2" min=0 max=10 step="any" placeholder="Digite sua nota 2"></p>
+
+    <input type="submit" value="Ok">
+    <input type="reset" value="Cancel">
+</form>
+
+</body>
+</html>
